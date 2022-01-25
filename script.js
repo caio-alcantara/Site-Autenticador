@@ -12,6 +12,7 @@ function verificar() {
             paragrafo.style.color = 'green'
             paragrafo.innerHTML = 'Usuário autenticado'
         } else {
+            paragrafo.style.color = 'red'
             paragrafo.innerHTML = 'Usuário ou senha inválidos.'
         }
     }
