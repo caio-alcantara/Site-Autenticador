@@ -9,8 +9,8 @@ function verificar() {
         paragrafo.innerHTML = 'Preencha todos os campos'
     } else {
         if (usuario == user1[0] && senha == user1[1]) {
-            paragrafo.style.color = 'green'
-            paragrafo.innerHTML = 'Usuário autenticado'
+            window.location.href = 'teste.html'
+
         } else {
             paragrafo.style.color = 'red'
             paragrafo.innerHTML = 'Usuário ou senha inválidos.'
